@@ -1,1 +1,86 @@
+/* Import font */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue+Cyrillic&display=swap");
+@import url('https: //fonts.googleapis.com/css2?family=Garrett+Book&display=swap');
 
+/* Customize text */
+h1 {
+    font-family: 'Bebas Neue Cyrillic', sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 1px #ffffff;
+}
+
+h3 {
+    font-family: 'Bebas Neue Cyrillic', sans-serif;
+}
+
+body {
+    font-family: "Gartett Book", sans-serif;
+    text-align: justify;
+}
+
+div.container-xxl.d-flex.flex-column.flex-shrink-0.p-3 {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* Center client logo */
+div.css-1kyxreq.etr89bj2 {
+    justify-content: center;
+}
+
+/* Set tab background to transparent */
+[data-baseweb="tab"] {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* Adjust text size of metric value */
+div.css-1wivap2.e16fv1kl3 {
+    font-family: 'Bebas Neue Cyrillic', sans-serif;
+    font-size: 16px;
+}
+
+/* Add background image */
+[data-testid="stAppViewContainer"] {
+    background-image: url("https://cdn.wallpapersafari.com/74/2/exTLGc.jpg");
+    background-size: cover;
+}
+
+/* Set header background to transparent */
+[data-testid="stHeader"] {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* Set app background color to transparent */
+.stApp {
+    background-color: transparent;
+}
+
+/* Reposition right-hand side hamburger */
+[data-testid="stToolbar"] {
+    right: 2rem;
+}
+
+/* Change color of progress bar */
+.stProgress>div>div>div>div {
+    background-color: #FEFEFE !important;
+}
+
+/* Set sidebar gradient background
+[data-testid="stSidebar"] {
+    background-color: #000000;
+    background-image: linear-gradient(160deg, #000000 0%, #002A54 200%);
+} */
+
+/* Hide header  */
+header {
+    visibility: hidden;
+}
+
+/* Hide Hamburger menu  */
+#MainMenu {
+    visibility: hidden;
+}
+
+/* Hide "Made with Streamlit" */
+footer {
+    visibility: hidden;
+}
