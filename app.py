@@ -7,7 +7,7 @@ from streamlit_option_menu import option_menu
 # import locale
 
 # Set locale to FR to display month names in French
-# locale.setlocale(locale.LC_TIME, 'fr_FR.UTF-8')
+locale.setlocale(locale.LC_TIME, 'fr_FR.UTF-8')
 
 # Set app settings
 st.set_page_config(
@@ -15,7 +15,7 @@ st.set_page_config(
     layout="centered")
 
 # Apply settings from CSS style file
-with open("style.css") as css:
+with open("static/style.css") as css:
     st.markdown(f'<style>{css.read()}</style>', unsafe_allow_html=True)
 
 with st.sidebar:
