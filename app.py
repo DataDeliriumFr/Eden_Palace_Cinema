@@ -15,11 +15,11 @@ st.set_page_config(
     layout="centered")
 
 # Apply settings from CSS style file
-with open("/Users/admin/Downloads/PROJET 2/5_RECOMMENDATION_SYS/style.css") as css:
+with open("style.css") as css:
     st.markdown(f'<style>{css.read()}</style>', unsafe_allow_html=True)
 
 with st.sidebar:
-    st.image("/Users/admin/Downloads/PROJET 2/5_RECOMMENDATION_SYS/client_logo.png")
+    st.image("client_logo.png")
 
     selected = option_menu(menu_title=None,
                            menu_icon="list",
@@ -36,7 +36,7 @@ with st.sidebar:
 
 if selected == "Accueil":
     st.image(
-        "/Users/admin/Downloads/PROJET 2/5_RECOMMENDATION_SYS/client_logo_white.png",
+        "client_logo_white.png",
         width=300)
     # st.title("EDEN PALACE")
     st.divider()
@@ -70,9 +70,9 @@ if selected == "Trouver des films":
 
     # Load movies dataset processed for NN model
     df = pd.read_csv(
-        "/Users/admin/Downloads/PROJET 2/5_RECOMMENDATION_SYS/df_movies_model.csv")
+        "df_movies_model.csv")
     df_actors = pd.read_csv(
-        "/Users/admin/Downloads/PROJET 2/4_JOIN IMDB TMDB/df_actors_final.csv")
+        "df_actors_final.csv")
 
     # User input
     movie_list = df["title_fr"].tolist()
