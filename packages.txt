@@ -1,1 +1,1 @@
-locale.setlocale(locale.LC_TIME, 'fr_FR.UTF-8')
+locales-all
