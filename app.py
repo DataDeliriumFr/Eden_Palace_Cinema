@@ -3,11 +3,7 @@ from sklearn.neighbors import NearestNeighbors
 from sklearn.preprocessing import MinMaxScaler
 import streamlit as st
 from streamlit_option_menu import option_menu
-# import time
-# import locale
-
-# Set locale to FR to display month names in French
-locale.setlocale(locale.LC_TIME, 'fr_FR.UTF-8')
+import time
 
 # Set app settings
 st.set_page_config(
