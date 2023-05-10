@@ -64,12 +64,6 @@ div.css-1wivap2.e16fv1kl3 {
     background-color: #FEFEFE !important;
 }
 
-/* Set sidebar gradient background
-[data-testid="stSidebar"] {
-    background-color: #000000;
-    background-image: linear-gradient(160deg, #000000 0%, #002A54 200%);
-} */
-
 /* Hide header  */
 header {
     visibility: hidden;
