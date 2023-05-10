@@ -70,9 +70,10 @@ header {
 }
 
 /* Hide Hamburger menu  */
-#MainMenu {
+/* #MainMenu {
     visibility: hidden;
 }
+*/
 
 /* Hide "Made with Streamlit" */
 footer {
