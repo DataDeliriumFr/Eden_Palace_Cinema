@@ -1,2 +1,2 @@
-# WCS_Project_2
+# Eden Palace Cinéma
 Movie Recommandation System
