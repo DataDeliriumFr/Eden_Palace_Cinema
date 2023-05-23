@@ -23,7 +23,7 @@ with st.sidebar:
 
     selected = option_menu(menu_title=None,
                        menu_icon="list",
-                       options=["Accueil", 'Découvrir des films'],
+                       options=["Accueil", 'Découvrir de nouveaux films'],
                        icons=['house', 'film'],
                        default_index=0,
                        styles={
@@ -57,7 +57,7 @@ if selected == "Accueil":
     st.markdown(welcome_text, unsafe_allow_html=True)
     st.divider()
 
-if selected == "Découvrir des films":
+if selected == "Découvrir de nouveaux films":
     st.title("RECOMMANDATION DE FILMS")
     st.divider()
 
